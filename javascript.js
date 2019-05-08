@@ -7,8 +7,8 @@ function printConsole() {
 function movePingPongBall() {
   console.log("ping pong ball should move now");
   var element = document.getElementById("dot");
-  var height = 100;
-  var length = 200;
+  var height = 200;
+  var length = 500;
   var counter = 0;
   var moveUp = -1;
   var moveAcross = 1;
@@ -17,10 +17,10 @@ function movePingPongBall() {
     if(counter == 10000) {
       clearInterval(id);
     } else {
-      if(height == 150 || height == 100) {
+      if(height == 250 || height == 200) {
         moveUp *= -1;
       }
-      if(length == 1400 || length == 200) {
+      if(length == 1700 || length == 500) {
         moveAcross *= -1;
       }
       if(moveUp == 1) {
