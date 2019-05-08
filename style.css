@@ -1,0 +1,15 @@
+#testParagraph {
+  background-color: green;
+  color: white;
+}
+
+/*
+Below code changes text color of words in navBar
+*/
+#topNavBar .navbar-brand {
+  background-color: green;
+  color: white;
+}
+#topNavBar .navbar-nav  .nav-link {
+  color: white;
+}
