@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
+    <script src="javascript.js"></script>
     <title>Creative Project 1</title>
   </head>
   <body>
@@ -18,7 +19,7 @@
             <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link" href="#">Product Details</a>
+            <a class="nav-link" onclick="printConsole()" href="#">Product Details</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link" href="#">Ping-Pong Door History</a>
@@ -29,11 +30,15 @@
         </ul>
       </div>
     </nav>
+    <div id="pingpongballcontainer">
+      <div id="pingpongballelement">
+        <span class="dot"></span>
+      </div>
+    </div>
     <div id="testParagraph">
       <h1>
         This is a test
       </h1>
     </div>
-    <img src="./images/pingpongball.png" alt="A white ping pong ball" height="30" width="30">
   </body>
 </html>
