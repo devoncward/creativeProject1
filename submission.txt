@@ -1,0 +1,10 @@
+Group: Justin Kinsella, Devin Ward
+Project: pong.justin-kinsella.comgithub: https://github.com/devoncward/creativeproject1.git
+
+For our creative design, we had some fun trying to get the menu to span consistently across all of our pages. 
+I spent some time learning with w3school on how to create columns and cards. 
+With CSS I was able to vary the columns on one page so that the center was slightly larger to draw attention to it,
+while the history page had 4 columns of equal length but alternating background color. The cards we used all had similar
+content material for consistency. We were able to make a ping pong ball float back and forth across the home page with Javascript. 
+I have started to get a much better handle of how to find resources and implement examples or templates to my own HTML 
+page then edit it to make it my own version. 
