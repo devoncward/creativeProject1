@@ -7,6 +7,48 @@
     <link rel="stylesheet" href="./style.css">
     <script src="javascript.js"></script>
     <title>Creative Project 1</title>
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        body {
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        /* Float four columns side by side */
+        .column {
+          float: left;
+          width: 25%;
+          padding: 0 10px;
+        }
+        
+        /* Remove extra left and right margins, due to padding */
+        .row {margin: 0 -5px;}
+        
+        /* Clear floats after the columns */
+        .row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+        
+        /* Responsive columns */
+        @media screen and (max-width: 600px) {
+          .column {
+            width: 100%;
+            display: block;
+            margin-bottom: 20px;
+          }
+        }
+        
+        /* Style the counter cards */
+        .card {
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          padding: 16px;
+          text-align: center;
+        }
+        </style>
   </head>
   <body>
     <nav id="topNavBar" class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -38,13 +80,39 @@
       </h1>
       <br>
     </div>
-    <div id="mainPictureListArea">
-      <p>
-        <h2>
-          Humble beginnings
-        </h2>
+
+    <div class="row">
+        <div class="column">
+          <div class="card" style="background-color: #39b558">
+            <h3>Early Beginnings</h3>
+            <p>Some text</p>
+            <p>Some text</p>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card" style="background-color: #51d672">
+            <h3>The Big Leauges</h3>
+            <p>Some text</p>
+            <p>Some text</p>
+          </div>
+        </div>
         
-      </p>
-    </div>
+        <div class="column">
+          <div class="card" style="background-color: #39b558">
+            <h3>PONG: the digital universe</h3>
+            <p>Some text</p>
+            <p>Some text</p>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card" style="background-color: #51d672">
+            <h3>Looking to the Future</h3>
+            <p>Some text</p>
+            <p>Some text</p>
+          </div>
+        </div>
+      </div>
   </body>
 </html>
