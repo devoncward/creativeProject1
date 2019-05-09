@@ -50,3 +50,42 @@ Below code changes text color of words in navBar
 #topNavBar .navbar-nav  .nav-link {
   color: white;
 }
+.row {
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-top:30px;
+}
+
+.column {
+  float: left;
+  padding: 15px;
+}
+.left, .right {
+  width: 30%;
+  background-color: #51d672
+}
+.middle {
+  width: 40%;
+  background-color: #39b558
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px)  {
+  .column {
+    width: 100%;
+  }
+}
+
+.right:button {
+  background-color: #23dd52;
+  color: white;
+  border: none;
+  text-align: center;
+  display: inline-block;
+  margin: 4px 2px;
+  border-radius: 8px;
+  
+}
