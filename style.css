@@ -9,6 +9,14 @@
 #whyListHeader {
   font-weight: bold;
 }
+.whyPingDoor {
+  color: black;
+  font-size: 30px;
+}
+
+body {
+  background-color: limeGreen;
+}
 
 /*
 About Page style
@@ -33,10 +41,6 @@ About Page style
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-
-body {
-  background-color: limeGreen;
 }
 
 /*
@@ -64,6 +68,7 @@ This is all code for the javascript ping pong ball
   top: 40%;
   left: 30%;
 }
+
 /*
 Below code changes text color of words in navBar
 */
