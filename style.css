@@ -1,3 +1,6 @@
+/*
+Stuff for home page
+*/
 #introTitle {
   background-color: red;
   color: black;
@@ -16,6 +19,16 @@
 
 body {
   background-color: limeGreen;
+}
+
+/*
+Stuff for product page
+*/
+.productList {
+  color: black;
+  text-align: left;
+  font-weight: bold;
+  font-size: 30px;
 }
 
 /*
